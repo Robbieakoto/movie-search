@@ -10,7 +10,7 @@ function SearchMovies(){
         e.preventDefault();
         setSearching(true);
 
-        const url = `http://www.omdbapi.com/?&apikey=e1a73560&s=${query}&type="movie"`;
+        const url = `https://www.omdbapi.com/?&apikey=e1a73560&s=${query}&type="movie"`;
 
         try{
             const response = await fetch(url);
